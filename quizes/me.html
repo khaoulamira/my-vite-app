@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>
+    </title>
+    </head>
+<body>
+    
+    <p id="p1">nama</p>
+    
+    
+    <script>
+        
+        let num = 5;
+let sum = 1
+for(let i=1;i<=num;++i ){ 
+        sum=sum*i;
+}
+        console.log(sum);
+        let full="momamama";
+        document.getElementById("p1").textContent="ur name is  ${full}";
+        
+    let mira="hello! \"mira\"";
+        console.log(mira);
+        let age="160";
+        if (age===16){
+            console.log("you still a teen");
+        }else{
+            console.log("ur an adulte");
+        }
+        let color="green";
+        switch(color){
+            case "red":
+                console.log("bloody day!");
+                break;
+            case "yellow":
+                console.log("sunny day !");
+                break;
+            case "green":
+                console.log("forest mood!");
+                break;
+            default:
+                console.log("go take rest!");
+        }
+        let day=3;
+        switch (day){
+            case 1:
+                day="monday";
+                break;
+            case 2:
+                day="friday";
+                break;
+            case 3 :
+                day="saturday";
+            default:
+                break;
+                
+        }
+        console.log("the day is "+day)
+        
+            
+    let b=13;
+       let msg= (b==14)? "ur a teen" : "ur a kid";
+        console.log(msg);
+  
+        let agae=12;
+        agae>=18 ? console.log("ur an adulte"):console.log("ur a minor");
+        
+        
+        console.log( typeof hi);
+    const word = "JavaScript";
+let firstChar = word[0]; // "J"
+var secondChar = word[1]; // "a"
+         let value = 42;
+        switch(typeof value){
+            case "number":
+                console.log("this is anumber");
+                break;
+            case "string":
+                console.log("this is a string");
+                break;
+            case "boolean":
+                console.log("this is a boolean");
+                break;
+            default:
+                console.log("thi is  undefined type");
+        }
+        let person={
+            nom:'mira',
+            agee:22,
+            city:"sidi slimane"
+        };
+       
+        person.nom="sanji";
+        person['nom']='khaoula';
+         console.log(person.nom);
+        let selectedcolor=['red','green','yellow'];
+        selectedcolor[3]=1;
+        console.log(selectedcolor.length);
+        function greet (name,lastname){
+            console.log("hello my real buddy" + name +' '+ lastname);
+            
+        }
+        greet("jemmy","clover");
+    function square (n){
+      return n*n;
+        
+    }
+      let number = square(5);
+    console.log(number);
+    </script>
+    
+    
+    </body>
+</html>

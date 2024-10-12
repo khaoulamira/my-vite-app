@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>
+    </title>
+    </head>
+<body>
+    
+    <p id="p1">nama</p>
+    
+    
+    <script>
+    function sum(numbers) {
+        let arr = numbers;
+        let sum = 0;
+
+        for (let i = 0; i < arr.length; i++) {
+            sum += arr[i];
+        }
+
+        return sum;
+    }
+
+    let a = sum([2, 3, 1, 4]); // Corrected syntax for passing an array
+    console.log(a);
+        
+        
+       
+    function countEven(numbers) {
+        let even = 0;
+
+        for (let i=0;i<numbers.length;i++) {
+            if (numbers[i]%2===0) {
+                even++;
+            }
+           numbers[i]=numbers[i]+1;
+        }
+        return even;
+    }
+    
+    let a2 = [1,2,4,5,8];
+    let ev = countEven(a2);
+    console.log(ev);
+
+
+
+       function double1(numbers) {
+        let arr3=numbers;
+        var map1=arr3.map((x)=>x*2);
+        return map1;
+    }
+
+    let m=[1, 2, 3, 4];
+    let c=double1(m);
+    console.log(c);
+        
+    let arr4 = [1,1,2,3,3,4,4];
+        let count=0;
+        arr4.sort();
+        for (let i=0 ; i<=arr4.length;i++){
+             if( arr4[0]=arr4[i+1]){
+                count ++;
+                i++;
+            } 
+        }
+           console.log(count);
+        
+        
+        function selectionsort(n) {
+            let T =n.slice();
+            for (let i=0;i<T.length;i++){
+                let min=i;
+                for (let j=i+1;j<T.length;j++){
+                    if (T[min]>T[j]){
+                        min=j;
+                    }
+                }
+                [T[i],T[min]]=[T[min],T[i]]; 
+            }
+            return T;
+        }
+        let q= [1,5,2,8,3,10,9];
+        let v= selectionsort(q);
+        console.log(v);
+        
+        function trinsertion(m){
+            let T2=m.slice();
+            for (i=1;i<T2.length;i++){
+                let pos =T2[i];
+                let j=i-1;
+                while (j>=0 && pos<T2[j]){
+                  T2[j+1]=T2[j];
+                    j--;
+                }
+                  T2[j+1]=pos;
+            }
+            return T2;
+        }
+        let s= [1,5,2,8,17,10,9];
+        let l= selectionsort(s);
+        console.log(l);
+        
+        function linearSerch(l,k){
+            let T3 =l.slice ();
+            for (let i=0;i<T3.length;i++){
+                if (T3[i]===k){
+                    return i;
+                            }
+            }
+            return null;
+            
+        }
+        
+        
+         let y= [1,5,2,8,17,10,9];
+        let k=2;
+        let g= linearSerch(y,k);
+        console.log(g);
+        
+        
+           function binarySerch(x,h){
+            let T4 =x.slice ();
+            let low=0;
+               let heigh=T4.length;
+             while(low<=heigh){
+                 
+                        let mid = Math.floor((low+heigh)/2);
+                   if (T4[mid]===h){
+                       return T4[mid];
+                   }else if(T4[mid]<h) {
+                       low=mid+1;
+                   }else {
+                       heigh= mid-1;
+                   }
+             }
+            
+                   
+                   
+               
+            
+        }
+         let pp= [1,2,3,4,5,6,7];
+        let kk=9;
+        let go= binarySerch(pp,kk);
+        console.log(go);
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+</script>
+
+
+    
+    </body>
+</html>
