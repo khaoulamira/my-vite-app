@@ -10,6 +10,8 @@ import UpdateObject from './components/day5/UpdateObject';
 import UpdaterFunction from './components/day5/UpdaterFunctiom';
 import ArrayOfOject from './components/day6/ArrayOfObjects';
 import ArrayState from './components/day6/ArrayStat';
+import ToDoListe from './components/day7/ToDoList';
+import UseEffects from './components/day7/UseEffects';
 import Fruits from './components/Fruits';
 import List from './components/list';
 import Listdistructering from './components/listdistructerng';
@@ -73,6 +75,8 @@ function App() {
    <ArrayState/>
   
    <ArrayOfOject/>
+   <div><ToDoListe/></div>
+   <div><UseEffects/></div>
     </>
     
 
