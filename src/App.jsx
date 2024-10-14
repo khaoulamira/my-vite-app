@@ -12,6 +12,8 @@ import ArrayOfOject from './components/day6/ArrayOfObjects';
 import ArrayState from './components/day6/ArrayStat';
 import ToDoListe from './components/day7/ToDoList';
 import UseEffects from './components/day7/UseEffects';
+import DigitalClock from './components/day8/DigitalClock';
+import UseEffectheightwidth from './components/day8/UseEffectheightwidth';
 import Fruits from './components/Fruits';
 import List from './components/list';
 import Listdistructering from './components/listdistructerng';
@@ -77,6 +79,9 @@ function App() {
    <ArrayOfOject/>
    <div><ToDoListe/></div>
    <div><UseEffects/></div>
+   <div> <UseEffectheightwidth/></div>
+   <div><DigitalClock/></div>
+
     </>
     
 

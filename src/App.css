@@ -40,3 +40,17 @@
 .read-the-docs {
   color: #888;
 }
+ .clock-body{
+background-image: url(./src/assets/sanji1.jpg);
+background-position: center; 
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+margin: 0;
+width: 500px;
+height: 450px;
+}
+.lock-container{
+color: magenta;
+font-size: 6rem;
+}
