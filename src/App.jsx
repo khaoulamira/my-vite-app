@@ -14,6 +14,8 @@ import ToDoListe from './components/day7/ToDoList';
 import UseEffects from './components/day7/UseEffects';
 import DigitalClock from './components/day8/DigitalClock';
 import UseEffectheightwidth from './components/day8/UseEffectheightwidth';
+import UseCtxComponentA from './components/day9/UseCtxComponentA';
+import UseRefernce from './components/day9/UseRefernce';
 import Fruits from './components/Fruits';
 import List from './components/list';
 import Listdistructering from './components/listdistructerng';
@@ -81,7 +83,8 @@ function App() {
    <div><UseEffects/></div>
    <div> <UseEffectheightwidth/></div>
    <div><DigitalClock/></div>
-
+  <div> <UseCtxComponentA/> </div>
+  <div> <UseRefernce/> </div>
     </>
     
 

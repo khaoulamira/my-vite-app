@@ -186,4 +186,9 @@ input[type="color"]{
      width:100vw ;
      padding: 10px 0px;
     }
-    
+    .box-cpt{
+    border: #f3c4d5 3px solid;
+    padding:20px ;
+
+
+    }
