@@ -1,12 +1,12 @@
 import UseCtxComponentD from "./UseCtxComponentD"
 
 // import { useContext } from "react"
-function UseCtxComponentC(props) {
+function UseCtxComponentC() {
     
     
 return(<>
     <div className="box-cpt"><h1>Component:C</h1>
-    <UseCtxComponentD user= {props.user}/>
+    <UseCtxComponentD/>
     </div>
         </>) }
 export default UseCtxComponentC

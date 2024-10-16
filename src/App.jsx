@@ -5,6 +5,7 @@ import Button from './components/Button';
 import Counter from './components/cp-day4/Counter';
 import MyCpntUsestate from './components/cp-day4/MyCpntUsestate';
 import OnchngEvent from './components/cp-day4/OnchngEvent';
+import Chrono from './components/day 10/Chrono';
 import ColorPicker from './components/day5/ColorPicker';
 import UpdateObject from './components/day5/UpdateObject';
 import UpdaterFunction from './components/day5/UpdaterFunctiom';
@@ -85,6 +86,8 @@ function App() {
    <div><DigitalClock/></div>
   <div> <UseCtxComponentA/> </div>
   <div> <UseRefernce/> </div>
+  <div> <Chrono/></div>
+ 
     </>
     
 

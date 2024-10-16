@@ -192,3 +192,58 @@ input[type="color"]{
 
 
     }
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: hsl(0, 0%, 95%);
+
+    }
+    .stopwatch{
+      margin:10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+border: #ff6584 3px solid;    
+border-radius: 5px;
+background-color: #f3c4d5;
+padding: 12px;
+width: 300px;
+height: 100x;
+}
+.diplay{
+  font-size: 5rem;
+font-family: monospace;
+font-weight: bold;
+color: hsl(0, 0%, 30%);
+text-shadow: 2px 2px 2px hsla(321, 47%, 37%, 0.66);
+margin-bottom: 20px;
+
+
+}
+.controls button{
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding:5px 14px;
+  margin: 3px;
+  min-width: 90px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: hsl(347, 16%, 78%);
+  transition: background-color 0.6s ease;
+}
+.start-button{
+  background-color: hsl(134, 85%, 40%);
+}.start-button:hover{
+  background-color: hsla(133, 74%, 15%, 0.42);
+}.stop-button{
+  background-color: hsl(11, 85%, 44%);
+}.stop-button:hover{
+  color: whitesmoke;
+  background-color: hsla(0, 81%, 21%, 0.686);
+}.reset-button{
+  background-color: hsla(251, 48%, 47%, 0.918);
+}.reset-button:hover{
+  background-color: #1f084ec0;
+}
